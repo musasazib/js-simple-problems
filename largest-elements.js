@@ -2,7 +2,7 @@ function LargestElement(numbers) {
     let largest = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
         const element = numbers[i];
-        if (element > largest) {   // Smallest element < largest
+        if (element > largest) {   // Smallest--- element < largest
             largest = element;
         }
     }
